@@ -45,7 +45,7 @@ const getCumulativeStatsByCode = async (
 						where: {
 							timestamp_gt: ${start}
 							timestamp_lte: ${end}
-							trackingCode: "0x4b57454e54410000000000000000000000000000000000000000000000000000"
+							trackingCode: "0x444558544f524f00000000000000000000000000000000000000000000000000"
 							account: "${id}"
 						}
 						orderBy: timestamp

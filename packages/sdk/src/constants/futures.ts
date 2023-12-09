@@ -12,7 +12,7 @@ import {
 } from '../types/futures'
 import { weiFromWei } from '../utils/number'
 
-export const KWENTA_TRACKING_CODE = ethers.utils.formatBytes32String('KWENTA')
+export const KWENTA_TRACKING_CODE = ethers.utils.formatBytes32String('DEXTORO')
 
 // Defaults
 
@@ -26,7 +26,7 @@ export const DEFAULT_PRICE_IMPACT_DELTA_PERCENT = {
 	TAKE_PROFIT: '5',
 }
 
-export const FUTURES_ENDPOINT_OP_MAINNET = `https://subgraph.satsuma-prod.com/${process.env.NEXT_PUBLIC_SATSUMA_API_KEY}/kwenta/optimism-perps/api`
+export const FUTURES_ENDPOINT_OP_MAINNET = `https://api.thegraph.com/subgraphs/name/graphthe/optimism-perps`
 
 export const FUTURES_ENDPOINT_OP_GOERLI =
 	'https://api.thegraph.com/subgraphs/name/kwenta/optimism-goerli-perps'
